@@ -16,6 +16,6 @@ public class IssuesExistSelenideTests {
         $(".header-search-input").setValue(TestData.REPOSITORY).pressEnter();
         $(String.format("[href='%s']", TestData.REPOSITORY)).click();
         $(String.format("[href='%s/issues']", TestData.REPOSITORY)).click();
-        $(byText(String.format("%s", TestData.ISSUE_NAME))).should(Condition.exist);
+        $(byText(String.format("%s", TestData.ISSUE_NAME))).should(Condition.visible);
     }
 }

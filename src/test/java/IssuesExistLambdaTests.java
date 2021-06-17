@@ -30,7 +30,7 @@ public class IssuesExistLambdaTests {
         });
         step("Проверяем наличие Issues по названию", (s) ->{
             s.parameter("issues_name", TestData.ISSUE_NAME);
-            $(byText(String.format("%s", TestData.ISSUE_NAME))).should(Condition.exist);
+            $(byText(String.format("%s", TestData.ISSUE_NAME))).should(Condition.visible);
         });
     }
 }
