@@ -10,5 +10,4 @@ public class IssuesExistStepTests {
         step.goToTab(TestData.TAB_NAME);
         step.verifyExistIssuesName(TestData.ISSUE_NAME);
     }
-
 }

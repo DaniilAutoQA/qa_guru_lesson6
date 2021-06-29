@@ -32,6 +32,4 @@ public class HomeAnnotatedLabelsTest {
     public void testIssueDeleteFromRepositoryOwner() {
 
     }
-
-
 }
