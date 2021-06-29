@@ -28,6 +28,4 @@ public class WebStep {
     public void verifyExistIssuesName(String name){
         $(byText(String.format("%s", name))).should(Condition.visible);
     }
-
-
 }
